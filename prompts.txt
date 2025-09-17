@@ -1,0 +1,83 @@
+Oggetto: Crea un sito web one-page per un esperto di marketing digitale e creazione di contenuti. L'obiettivo è generare lead tramite WhatsApp.
+
+Tono e Stile: Moderno, pulito, professionale ma dinamico. Deve trasmettere competenza nel digital marketing e nella creatività. Usa una palette di colori che può includere un blu professionale (fiducia), un arancione energetico (azione/creatività) e bianco/spazi neutri per un design pulito. Il design deve essere impeccabile, per dimostrare la tua competenza nella creazione di siti web e grafica.
+
+Obiettivo Principale: Portare il visitatore a contattarti immediatamente su WhatsApp per una consulenza o un preventivo. Ogni elemento della pagina deve condurre a quell'azione.
+
+Dettagli e Contenuti da Includere:
+
+Hero Section (Sezione Iniziale):
+
+Headline: "Presenza Online Potente che Converte"
+
+Sottotitolo: "Siti web, advertising, grafica e QR code: tutto ciò che ti serve per far crescere il tuo business online, in un unico posto."
+
+Pulsante Primario (CTA): Grande pulsante verde con l'icona di WhatsApp e il testo "RICHIEDI INFO SU WhatsApp".
+
+Link Tecnico: https://wa.me/393806930434
+
+Sezione "I Miei Servizi":
+
+Titolo: "Cosa Posso Creare per Te"
+
+Crea 4 box distinti con icone rappresentative:
+
+Siti Web Moderni: "Siti veloci, responsive e conversion-oriented, progettati per attrarre clienti."
+
+Online Advertising: "Campagne pubblicitarie su Google e Social Network per generare lead e vendite."
+
+Contenuti Grafici: "Grafiche per social media, logo e branding per rendere il tuo business riconoscibile e professionale."
+
+Generazione QR Code: "QR code personalizzati e tracciabili per brochure, menu o volantini, per collegare istantaneamente il mondo fisico al tuo digitale."
+
+Sezione "Come Lavoro":
+
+Titolo: "Un Processo Semplice e Veloce"
+
+Elenca 3 passaggi:
+
+1. Contatto: "Mi scrivi su WhatsApp per parlare della tua idea."
+
+2. Piano: "Creiamo insieme una strategia su misura per te."
+
+3. Realizzazione: "Ricevi il lavoro finito, rapidamente e senza stress."
+
+Sezione Call-to-Action Intermedia:
+
+Sfondo accattivante.
+
+Testo: "Pronto a far decollare la tua presenza online?"
+
+Pulsante: "INIZIA ORA!" (sempre con link WhatsApp).
+
+Sezione Testimonials:
+
+Titolo: "La soddisfazione dei miei clienti"
+
+Incluidi 2-3 testimonianze con nome, foto (avatar) e stelle. Esempio: "Il sito che ha realizzato per me ha aumentato le prenotazioni del 30% in un mese. Serio e preparato!" - Anna, Ristorante Bella Vista.
+
+Sezione Contatti Finale (Strong CTA):
+
+Titolo: "Hai un Progetto in Mente?"
+
+Testo: "Scrivimi su WhatsApp per un preventivo gratuito e senza impegno. Rispondo personalmente in tempo reale."
+
+Pulsante Principale: "SCRIVIMI SU WHATSAPP" (link: https://wa.me/393806930434)
+
+Testo Secondario: "Oppure chiamami al: +39 380 693 0434"
+
+Footer:
+
+Ripeti il numero di telefono: +39 380 693 0434
+
+Aggiungi una nota di copyright (es. "© 2024 [Tuo Nome]. Tutti i diritti riservati.").
+
+Istruzioni Tecniche Fondamentali:
+
+Mobile-First: Il sito deve essere perfetto e super facile da usare su smartphone, dato che l'obiettivo è cliccare su WhatsApp.
+
+Velocità: Ottimizza tutte le immagini e il codice per una velocità di caricamento massima.
+
+QR Code (Bonus): Nell'footer, potresti aggiungere un QR code (generato da te stesso!) che linka a questa stessa pagina, per dimostrare praticamente il tuo servizio.
+
+Pulsante Fisso: Inserisci un pulsante galleggiante di WhatsApp in basso a destra su ogni schermo, sempre visibile durante lo scroll.

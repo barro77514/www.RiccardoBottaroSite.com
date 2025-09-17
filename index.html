@@ -1,19 +1,254 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>My static Space</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="card">
-			<h1>Welcome to your static Space!</h1>
-			<p>You can modify this app directly by editing <i>index.html</i> in the Files and versions tab.</p>
-			<p>
-				Also don't forget to check the
-				<a href="https://huggingface.co/docs/hub/spaces" target="_blank">Spaces documentation</a>.
-			</p>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Expert - Presenza Online che Converte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        secondary: '#F97316',
+                        accent: '#10B981',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/393806930434" class="whatsapp-float" target="_blank">
+        <i data-feather="message-circle"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-blue-600 text-white py-20 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Presenza Online Potente che Converte</h1>
+                    <p class="text-xl mb-8">Siti web, advertising, grafica e QR code: tutto ciò che ti serve per far crescere il tuo business online, in un unico posto.</p>
+                    <a href="https://wa.me/393806930434" class="bg-accent hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition duration-300">
+                        <i data-feather="message-circle" class="mr-2"></i> RICHIEDI INFO SU WhatsApp
+                    </a>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="http://static.photos/technology/640x360/1" alt="Digital Marketing" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Cosa Posso Creare per Te</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-primary mb-4">
+                        <i data-feather="globe" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Siti Web Moderni</h3>
+                    <p class="text-gray-600">Siti veloci, responsive e conversion-oriented, progettati per attrarre clienti.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-primary mb-4">
+                        <i data-feather="bar-chart-2" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Online Advertising</h3>
+                    <p class="text-gray-600">Campagne pubblicitarie su Google e Social Network per generare lead e vendite.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-primary mb-4">
+                        <i data-feather="image" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Contenuti Grafici</h3>
+                    <p class="text-gray-600">Grafiche per social media, logo e branding per rendere il tuo business riconoscibile e professionale.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-primary mb-4">
+                        <i data-feather="maximize-2" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Generazione QR Code</h3>
+                    <p class="text-gray-600">QR code personalizzati e tracciabili per brochure, menu o volantini, per collegare istantaneamente il mondo fisico al tuo digitale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Un Processo Semplice e Veloce</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-bold mb-3">Contatto</h3>
+                    <p class="text-gray-600">Mi scrivi su WhatsApp per parlare della tua idea.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-bold mb-3">Piano</h3>
+                    <p class="text-gray-600">Creiamo insieme una strategia su misura per te.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-bold mb-3">Realizzazione</h3>
+                    <p class="text-gray-600">Ricevi il lavoro finito, rapidamente e senza stress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 bg-gradient-to-r from-secondary to-orange-500 text-white">
+        <div class="container mx-auto max-w-4xl text-center" data-aos="zoom-in">
+            <h2 class="text-3xl font-bold mb-6">Pronto a far decollare la tua presenza online?</h2>
+            <a href="https://wa.me/393806930434" class="bg-white text-secondary hover:bg-gray-100 font-bold py-4 px-8 rounded-full inline-flex items-center transition duration-300">
+                <i data-feather="message-circle" class="mr-2"></i> INIZIA ORA!
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">La soddisfazione dei miei clienti</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Il sito che ha realizzato per me ha aumentato le prenotazioni del 30% in un mese. Serio e preparato!"</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/1" alt="Anna" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Anna</h4>
+                            <p class="text-gray-500 text-sm">Ristorante Bella Vista</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Le campagne pubblicitarie hanno portato clienti qualificati fin dal primo giorno. Risultati eccezionali!"</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/2" alt="Marco" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Marco</h4>
+                            <p class="text-gray-500 text-sm">Azienda di Servizi</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Il rebranding ha cambiato completamente l'immagine della mia attività. Professionalità e creatività al top!"</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/3" alt="Laura" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Laura</h4>
+                            <p class="text-gray-500 text-sm">Boutique di Moda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 px-4 bg-primary text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Hai un Progetto in Mente?</h2>
+            <p class="text-xl mb-8" data-aos="fade-up" data-aos-delay="100">Scrivimi su WhatsApp per un preventivo gratuito e senza impegno. Rispondo personalmente in tempo reale.</p>
+            <a href="https://wa.me/393806930434" class="bg-accent hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition duration-300 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <i data-feather="message-circle" class="mr-2"></i> SCRIVIMI SU WHATSAPP
+            </a>
+            <p class="text-gray-200" data-aos="fade-up" data-aos-delay="300">Oppure chiamami al: <a href="tel:+393806930434" class="underline">+39 380 693 0434</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <p class="text-xl font-bold mb-2">Digital Marketing Expert</p>
+                    <p class="text-gray-400">+39 380 693 0434</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="mb-4 bg-white p-2 rounded">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com" alt="QR Code" class="w-24 h-24">
+                        <p class="text-xs text-gray-400 mt-1">Scansiona per salvare il contatto</p>
+                    </div>
+                    <p class="text-gray-400 text-sm">© 2024 Digital Marketing Expert. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
 </html>
